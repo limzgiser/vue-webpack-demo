@@ -19,15 +19,16 @@ export default {
 };
 </script>
  <!--   style 没用 -->
-<style>
-#app {
-  background: red;
-}
+<style lang="less" scoped>
 
+ 
 .message {
   position: absolute;
   top: 50px;
-  right: 50%;
+  left: 50%;
   transform: translate(-50%);
+  
 }
-</style>
+</style>>
+
+ 
