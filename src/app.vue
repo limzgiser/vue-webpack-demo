@@ -1,10 +1,11 @@
 <template>
-  <div id="app">
+  <!-- <div id="app">
     <img :src="logo" alt="logo" />
     <div class="message">
       {{ msg }}
     </div>
-  </div>
+  </div> -->
+      <router-view></router-view>
 </template>
 <script>
 import logo from "./images/logo.jpg";
