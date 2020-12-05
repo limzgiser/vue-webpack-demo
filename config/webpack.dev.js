@@ -4,6 +4,9 @@ module.exports = merge(base, {
     mode: 'development', //production   development
     devServer: {
         port: 4201,
-        open: true
-    }
+
+        quiet: true,
+        open: true,
+
+    },
 })
