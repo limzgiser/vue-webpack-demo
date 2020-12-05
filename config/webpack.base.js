@@ -42,6 +42,7 @@ module.exports = {
                 use: [{
                     loader: 'url-loader',
                     options: {
+                        esModule: false,
                         limit: 8 * 1024,
                         name: '[name].[ext]',
                         publicPath: '../images/',
@@ -85,7 +86,8 @@ module.exports = {
     ],
     resolve: {
         alias: {
-            vue$: 'vue/dist/vue.esm.js', // 'vue/dist/vue.common.js' for webpack 1
+            vue$: 'vue/dist/vue.esm.js',
+            'mapbox-gl': path.resolve(__dirname, '../node_modules/mapbox-gl'),
         },
     },
 };

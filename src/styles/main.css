@@ -3,6 +3,7 @@
     src: url('./BebasNeueRegular.ttf') format("truetype");
 }
 
+@import "~mapbox-gl/dist/mapbox-gl.css";
 html,
 body {
     margin: 0px;
