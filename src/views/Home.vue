@@ -1,24 +1,29 @@
 <!--  -->
 <template>
-  <div>
+  <div class="main-home">
   <HomeHeader/>
   <MapboxMap :mapOpts="mapOpts" @mapload="mapload">
  
   </MapboxMap>
- 
+  <div class="side-menu">
+      <SideMenuControl/>
+  </div>
+
   </div>
 </template>
 
 <script>
  
-  import  HomeHeader  from "../components/HomeHeader/HomeHeader.vue";
-  import MapboxMap from '../components/MapboxMap/MapboxMap.vue';
+  import  HomeHeader  from "@/components/HomeHeader/HomeHeader.vue";
+  import MapboxMap from '@/components/MapboxMap/MapboxMap.vue';
+  import SideMenuControl from '@/components/SideMenu/SideMenuControl.vue'
   import {baseMapUrl} from '../config';
  
 export default {
  components: {
     HomeHeader,
-    MapboxMap
+    MapboxMap,
+    SideMenuControl
   },
   data () {
     return {
@@ -40,11 +45,20 @@ export default {
 
 </script>
 <style lang='less' scoped>
+  .main-home{
+    width: 100%;
+    height: 100%;
+  }
+  .side-menu{
+    position: absolute;
+    top: 80px;
+    left: 20px;
+    width: 300px ;
+    max-height:calc(100% - 100px) ;
+    background: #000c17;
+    overflow: auto;
+  }
 
-  #mapboxele{
-        width: 100%;
-        height: calc(100vh - 60px);
-    }
 </style>
 
  

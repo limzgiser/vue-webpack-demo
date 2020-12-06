@@ -10,11 +10,9 @@
     "author": "",
     "license": "ISC",
     "dependencies": {
-        "-": "0.0.1",
-        "D": "^1.0.0",
         "ant-design-vue": "^1.7.2",
+        "lodash": "^4.17.20",
         "mapbox-gl": "^1.13.0",
-        "nyan-progress-webpack-plugin": "^1.2.0",
         "vue": "^2.6.12",
         "vue-router": "^3.4.9"
     },

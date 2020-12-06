@@ -118,7 +118,7 @@ export default {
     min-height: 416px;
     display: -ms-flexbox;
     display: flex;
-    background-image: url(../images/logo.jpg);
+    background-image: url(../assets/images/logo.jpg);
     background-size: 100% 100%;
     background-repeat: no-repeat;
   }

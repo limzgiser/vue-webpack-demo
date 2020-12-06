@@ -31,7 +31,10 @@ export default {
 </script>
 <style lang='less' scoped>
 
-  
+    #mapboxele{
+        width: 100%;
+        height: calc(100vh - 60px);
+    }
 
 
 </style>

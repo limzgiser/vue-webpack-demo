@@ -1,7 +1,7 @@
  
 <template>
   <div class="main">
-    <img :src="require('../../images/header_light.png')" />
+    <img :src="require('@/assets/images/header_light.png')" />
     <a class="user" @click="showLogoout()">
       Mina
     </a>

@@ -1,6 +1,6 @@
 @font-face {
     font-family: "Bebas Neue Regular";
-    src: url('./BebasNeueRegular.ttf') format("truetype");
+    src: url('../assets/fonts/BebasNeueRegular.ttf') format("truetype");
 }
 
 @import "~mapbox-gl/dist/mapbox-gl.css";

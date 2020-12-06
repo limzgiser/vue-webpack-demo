@@ -1,35 +1,30 @@
 <template>
-  <!-- <div id="app">
+	<!-- <div id="app">
     <img :src="logo" alt="logo" />
     <div class="message">
       {{ msg }}
     </div>
   </div> -->
-      <router-view></router-view>
+	<router-view></router-view>
 </template>
 <script>
-import logo from "./images/logo.jpg";
+import logo from './assets/images/logo.jpg';
 export default {
-  name: "app",
-  data() {
-    return {
-      logo: logo,
-      msg: "hello webpack vue !!"
-    };
-  }
+	name: 'app',
+	data() {
+		return {
+			logo: logo,
+			msg: 'hello webpack vue !!',
+		};
+	},
 };
 </script>
- <!--   style 没用 -->
+<!--   style 没用 -->
 <style lang="less" scoped>
-
- 
 .message {
-  position: absolute;
-  top: 50px;
-  left: 50%;
-  transform: translate(-50%);
-  
+	position: absolute;
+	top: 50px;
+	left: 50%;
+	transform: translate(-50%);
 }
-</style>>
-
- 
+</style>

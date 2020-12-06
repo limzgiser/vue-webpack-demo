@@ -1,0 +1,335 @@
+  [{
+          "level": 1,
+          "title": "城市底板",
+          "icon": "global",
+          "open": true,
+          "selected": false,
+          "disabled": false,
+          "children": [{
+                  "level": 2,
+                  "title": "精细化地表",
+                  "icon": "global",
+                  "open": true,
+                  "selected": false,
+                  "disabled": false,
+                  "id": ["base-model-201", "spe-s008"],
+                  "map": ["mapbox"],
+                  "thumbnail": "img_nav_01_csdb_jxhdb-min.png",
+                  "updateTime": "2020-11-09"
+
+
+              },
+              {
+                  "level": 2,
+                  "title": "三维建筑单体",
+                  "icon": "global",
+                  "open": true,
+                  "selected": false,
+                  "disabled": false,
+                  "id": [],
+                  "path": "home/threed-models",
+                  "map": ["mapbox"],
+                  "thumbnail": "img_nav_01_csdb_swjzdt-min.png",
+                  "updateTime": "2020-11-09"
+              },
+              {
+                  "level": 2,
+                  "title": "倾斜摄影模型",
+                  "icon": "global",
+                  "open": true,
+                  "selected": false,
+                  "disabled": true,
+                  "id": [],
+                  "map": ["cesium"],
+                  "path": "home/oblique-photography",
+                  "thumbnail": "img_nav_01_csdb_qxsymx-min.png",
+                  "tag3d": "tag_3d.png",
+                  "updateTime": "2020-11-09"
+
+              },
+
+              {
+                  "level": 2,
+                  "title": "激光点云模型",
+                  "icon": "global",
+                  "open": true,
+                  "selected": false,
+                  "disabled": true,
+                  "id": [],
+                  "path": "home/point-cloud",
+                  "map": ["cesium"],
+                  "thumbnail": "img_nav_01_csdb_jgdymx-min.png",
+                  "tag3d": "tag_3d.png",
+                  "updateTime": "2020-11-09"
+              },
+              {
+                  "level": 2,
+                  "title": "三维地形",
+                  "icon": "global",
+                  "open": true,
+                  "selected": false,
+                  "disabled": false,
+                  "id": ["spe-803"],
+                  "path": "home/terrain",
+                  "map": ["mapbox"],
+                  "thumbnail": "img_nav_01_csdb_swdx-min.png",
+                  "updateTime": "2020-11-09"
+              }
+          ]
+      },
+      {
+          "level": 1,
+          "title": "规划建设",
+          "icon": "global",
+          "open": true,
+          "selected": false,
+          "disabled": false,
+          "children": [{
+                  "level": 2,
+                  "title": "建筑高度分布",
+                  "icon": "global",
+                  "open": true,
+                  "selected": false,
+                  "disabled": false,
+                  "id": ["spe-s003"],
+                  "map": ["mapbox"],
+                  "thumbnail": "img_nav_02_ghjs_jzgdfb-min.png",
+                  "updateTime": "2020-11-09"
+              },
+              {
+                  "level": 2,
+                  "title": "建筑年代分布",
+                  "icon": "global",
+                  "open": true,
+                  "selected": false,
+                  "disabled": false,
+                  "id": ["spe-s004"],
+                  "map": ["mapbox"],
+                  "thumbnail": "img_nav_02_ghjs_jzldfb-min.png",
+                  "updateTime": "2020-11-09"
+              },
+              {
+                  "level": 2,
+                  "title": "建筑用途分布",
+                  "icon": "global",
+                  "open": true,
+                  "selected": false,
+                  "disabled": false,
+                  "id": ["spe-s005"],
+                  "map": ["mapbox"],
+                  "thumbnail": "img_nav_02_ghjs_jzytfb-min.png",
+                  "updateTime": "2020-11-09"
+              },
+              {
+                  "level": 2,
+                  "title": "三维地下管线",
+                  "icon": "global",
+                  "open": true,
+                  "selected": false,
+                  "disabled": true,
+                  "id": [],
+                  "map": ["cesium"],
+                  "path": "home/underground-pipeline",
+                  "thumbnail": "img_nav_02_ghjs_swdxgx-min.png",
+                  "updateTime": "2020-11-09",
+                  "tag3d": "tag_3d.png"
+              },
+              {
+                  "level": 2,
+                  "title": "规划方案对比",
+                  "icon": "global",
+                  "open": true,
+                  "selected": false,
+                  "disabled": false,
+                  "id": ["spe-801"],
+                  "map": ["mapbox"],
+                  "path": "home/schemes-comparison",
+                  "thumbnail": "img_nav_02_ghjs_ghfadb-min.png",
+                  "updateTime": "2020-11-09"
+              },
+              {
+                  "level": 2,
+                  "title": "历史古城保护",
+                  "icon": "global",
+                  "open": true,
+                  "selected": false,
+                  "disabled": false,
+                  "id": ["spe-802"],
+                  "map": ["mapbox"],
+                  "path": "home/ancient-city-protection",
+                  "thumbnail": "img_nav_02_ghjs_lsgcbh-min.png",
+                  "updateTime": "2020-11-09"
+              }
+          ]
+      },
+      {
+          "level": 1,
+          "title": "经济发展",
+          "icon": "global",
+          "open": true,
+          "selected": false,
+          "disabled": false,
+          "children": [{
+                  "level": 2,
+                  "title": "法人注册分布",
+                  "icon": "global",
+                  "open": true,
+                  "selected": false,
+                  "disabled": false,
+                  "id": ["spe-s204"],
+                  "path": "home/legal-person-reg",
+                  "map": ["mapbox"],
+                  "thumbnail": "img_nav_03_jjfz_frzcfb-min.png",
+                  "updateTime": "2020-11-09"
+              },
+              {
+                  "level": 2,
+                  "title": "产业园招商管理",
+                  "icon": "global",
+                  "open": true,
+                  "selected": false,
+                  "disabled": false,
+                  "id": ["spe-s009"],
+                  "path": "home/industrial-park",
+                  "map": ["mapbox"],
+                  "thumbnail": "img_nav_03_jjfz_cyyzsgl-min.png",
+                  "updateTime": "2020-11-09"
+              }
+          ]
+      },
+      {
+          "level": 1,
+          "title": "城市运行",
+          "icon": "global",
+          "open": true,
+          "selected": false,
+          "disabled": false,
+          "children": [{
+                  "level": 2,
+                  "title": "违章停车热力图",
+                  "icon": "global",
+                  "open": true,
+                  "selected": false,
+                  "disabled": false,
+                  "id": ["spe-502"],
+                  "path": "home/illegal-park",
+                  "map": ["mapbox"],
+                  "thumbnail": "img_nav_04_csyx_wztcrlt-min.png",
+                  "updateTime": "2020-11-09"
+              },
+              {
+                  "level": 2,
+                  "title": "公交运营监测",
+                  "icon": "global",
+                  "open": true,
+                  "selected": false,
+                  "disabled": false,
+                  "id": ["spe-001", "spe-501"],
+                  "path": "home/bus-op",
+                  "map": ["mapbox"],
+                  "thumbnail": "img_nav_04_csyx_gjyyjc-min.png"
+              },
+              {
+                  "level": 2,
+                  "title": "路段流量时空分析",
+                  "icon": "global",
+                  "open": true,
+                  "selected": false,
+                  "disabled": false,
+                  "id": ["spe-s301"],
+                  "path": "home/road-traffic",
+                  "map": ["mapbox"],
+                  "thumbnail": "img_nav_04_csyx_ldllskfx-min.png",
+                  "updateTime": "2020-11-09"
+              },
+              {
+                  "level": 2,
+                  "title": "停车场管理",
+                  "icon": "global",
+                  "open": true,
+                  "selected": false,
+                  "disabled": false,
+                  "id": ["spe-s007"],
+                  "map": ["mapbox"],
+                  "thumbnail": "img_nav_04_csyx_tccgl-min.png",
+                  "updateTime": "2020-11-09"
+              }
+          ]
+      },
+      {
+          "level": 1,
+          "title": "社区管理",
+          "icon": "global",
+          "open": true,
+          "selected": false,
+          "disabled": false,
+          "children": [{
+              "level": 2,
+              "title": "人口精细化管理",
+              "icon": "global",
+              "open": true,
+              "selected": false,
+              "disabled": false,
+              "id": ["spe-s006"],
+              "path": "home/housing-adm",
+              "map": ["mapbox"],
+              "thumbnail": "img_nav_05_sqgl_rkjxhgl-min.png",
+              "updateTime": "2020-11-09"
+          }]
+      },
+      {
+          "level": 1,
+          "title": "物联感知",
+          "icon": "global",
+          "open": true,
+          "selected": false,
+          "disabled": false,
+          "children": [{
+                  "level": 2,
+                  "title": "电梯状态监控",
+                  "icon": "global",
+                  "open": true,
+                  "selected": false,
+                  "disabled": false,
+                  "id": ["spe-401"],
+                  "path": "home/elevator-monitoring",
+                  "map": ["mapbox"],
+                  "thumbnail": "img_nav_06_wlgz_dtztjk-min.png",
+                  "updateTime": "2020-11-09"
+              },
+              {
+                  "level": 2,
+                  "title": "室内人员定位",
+                  "icon": "global",
+                  "open": true,
+                  "selected": false,
+                  "disabled": false,
+                  "id": ["spe-s302"],
+                  "path": "home/fuai-hospital",
+                  "map": ["mapbox"],
+                  "thumbnail": "img_nav_06_wlgz_snrydw-min.png",
+                  "updateTime": "2020-11-09"
+              }
+          ]
+      },
+      {
+          "level": 1,
+          "title": "环境监测",
+          "icon": "global",
+          "open": true,
+          "selected": false,
+          "disabled": false,
+          "children": [{
+              "level": 2,
+              "title": "水面流场（即将上线）",
+              "icon": "global",
+              "open": true,
+              "selected": false,
+              "disabled": true,
+              "id": [],
+              "map": [],
+              "thumbnail": "img_nav_default.png",
+              "updateTime": "2020-11-09"
+          }]
+      }
+  ]

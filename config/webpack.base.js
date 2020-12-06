@@ -5,9 +5,9 @@
  const VueLoaderPlugin = require('vue-loader/lib/plugin');
  const ProgressBarPlugin = require('progress-bar-webpack-plugin');
  const BundleAnalyzerPlugin = require('webpack-bundle-analyzer').BundleAnalyzerPlugin;
- var Dashboard = require('webpack-dashboard');
- var DashboardPlugin = require('webpack-dashboard/plugin');
- var dashboard = new Dashboard();
+ //  var Dashboard = require('webpack-dashboard');
+ //  var DashboardPlugin = require('webpack-dashboard/plugin');
+ //  var dashboard = new Dashboard();
  module.exports = {
      entry: './src/main.js',
      output: {
@@ -47,8 +47,8 @@
                          esModule: false,
                          limit: 8 * 1024,
                          name: '[name].[ext]',
-                         publicPath: '../images/',
-                         outputPath: 'images/',
+                         publicPath: '../assets/images/',
+                         outputPath: 'assets/images',
                      },
                  }, ],
              },
@@ -69,6 +69,8 @@
                  loader: 'url-loader',
                  options: {
                      limit: 10000,
+                     publicPath: '../assets/fonts/',
+                     outputPath: 'assets/fonts',
                  },
              },
              {
@@ -83,16 +85,16 @@
          new MiniCssExtractPlugin({
              filename: 'css/index.css',
          }),
-         new CleanWebpackPlugin(),
+           new CleanWebpackPlugin(),
          new VueLoaderPlugin(),
-         new DashboardPlugin(dashboard.setData),
+         //  new DashboardPlugin(dashboard.setData),
          //  new BundleAnalyzerPlugin(),
          new ProgressBarPlugin()
      ],
      resolve: {
          alias: {
              vue$: 'vue/dist/vue.esm.js',
-             'mapbox-gl': path.resolve(__dirname, '../node_modules/mapbox-gl'),
+            '@':path. resolve('src')
          },
      },
  };
