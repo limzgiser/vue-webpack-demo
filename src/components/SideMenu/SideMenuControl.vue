@@ -1,19 +1,26 @@
  
 <template>
- <SideMenu v-if="menuData" :menuData="menuData" ></SideMenu>
+<div>
+<MenuTitle @switchClick = "titleSwitchClick"></MenuTitle>
+ <SideMenu v-if="menuData && showMenuList" :menuData="menuData" ></SideMenu>
+</div>
+
 </template>
 
 <script>
  import SideMenu from './SideMenu.vue';
  import  SideMenuData from '@/config/menu.config.json';
  import {cloneDeep} from 'lodash';
+ import MenuTitle from './MenuTitle.vue';
 export default {
     components:{
-         SideMenu
+         SideMenu,
+        MenuTitle
     },
   data () {
     return {
-        menuData:null
+        menuData:null,
+        showMenuList:true
     };
   },
 
@@ -29,12 +36,17 @@ export default {
               element.thumbnail = require('@/assets/images/'+ element.thumbnail );
           });
       });
-
       this.menuData = tmpMenuData;
-    
    },
 
-//   methods: {}
+   methods: {
+     /**
+      * 切换显示/隐藏导航列表
+      */
+     titleSwitchClick(e){
+       this.showMenuList = e;
+     }
+   }
 }
 
 </script>
