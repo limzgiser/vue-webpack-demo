@@ -53,7 +53,6 @@ export default {
 		mouseEnter(findex, cindex) {
 			this.menuData[findex].children[cindex].hovered = true;
 			Vue.set(this.menuData[findex].children, cindex,this.menuData[findex].children[cindex]);
-
 		},
 		mouseLeave(findex, cindex) {
 			this.menuData[findex].children[cindex].hovered = false;
