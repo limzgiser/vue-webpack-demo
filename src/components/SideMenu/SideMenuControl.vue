@@ -63,16 +63,15 @@ export default {
   height: 100%;
   position: relative;
   display: flex;
-background: #000c17;
+
   flex-direction: column;
   .top{
     height: 40px;
   }
   .bottom{
- 
-    height:calc(100% - 40px);
- 
-        overflow: auto;
+
+    // height:calc(100% - 40px);
+    overflow: auto;
   }
 
 }

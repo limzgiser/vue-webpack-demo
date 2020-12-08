@@ -104,6 +104,7 @@ export default {
 			grid-row-gap: 15px;
 			grid-column-gap: 15px;
 			grid-template-columns: 1fr 1fr;
+			background: #000c17;
 			.item {
 				display: flex;
 				flex-direction: column;
