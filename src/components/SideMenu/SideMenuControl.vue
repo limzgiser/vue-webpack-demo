@@ -1,19 +1,26 @@
  
 <template>
-<div>
-<MenuTitle @switchClick = "titleSwitchClick"></MenuTitle>
- <SideMenu v-if="menuData && showMenuList" :menuData="menuData" ></SideMenu>
+<div class="side-menu-container">
+  <div class="top">
+ <MenuTitle @switchClick = "titleSwitchClick"></MenuTitle>
+  </div>
+  <div class="bottom">
+ <SideMenu v-if="menuData && showMenuList" :menuData="menuData" ></SideMenu> 
+  </div>
+
 </div>
 
 </template>
 
 <script>
+
  import SideMenu from './SideMenu.vue';
  import  SideMenuData from '@/config/menu.config.json';
  import {cloneDeep} from 'lodash';
  import MenuTitle from './MenuTitle.vue';
 export default {
     components:{
+  
          SideMenu,
         MenuTitle
     },
@@ -50,5 +57,23 @@ export default {
 }
 
 </script>
-<style lang='scss' scoped>
+<style lang='less' scoped>
+.side-menu-container{
+  width: 100%;
+  height: 100%;
+  position: relative;
+  display: flex;
+background: #000c17;
+  flex-direction: column;
+  .top{
+    height: 40px;
+  }
+  .bottom{
+ 
+    height:calc(100% - 40px);
+ 
+        overflow: auto;
+  }
+
+}
 </style>
