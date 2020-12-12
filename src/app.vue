@@ -19,12 +19,12 @@ export default {
 	},
 };
 </script>
-<!--   style 没用 -->
+ 
 <style lang="less" scoped>
-.message {
-	position: absolute;
-	top: 50px;
-	left: 50%;
-	transform: translate(-50%);
-}
+// .message {
+// 	position: absolute;
+// 	top: 50px;
+// 	left: 50%;
+// 	transform: translate(-50%);
+// }
 </style>

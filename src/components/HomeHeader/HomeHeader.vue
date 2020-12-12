@@ -1,4 +1,3 @@
- 
 <template>
   <div class="main">
     <img :src="require('@/assets/images/header_light.png')" />
@@ -18,20 +17,20 @@ export default {
   name: "HomeHeader",
   data() {
     return {
-      showExtProp:false,
+      showExtProp: false,
     };
   },
-  methods:{
-     showLogoout() {
+  methods: {
+    showLogoout() {
       this.showExtProp = !this.showExtProp;
     },
-    logoOut(){
+    logoOut() {
       this.$router.push({ path: "/login" });
-    }
-  }
+    },
+  },
 };
 </script>
-<style lang='less' scoped>
+<style lang="less" scoped>
 .main {
   padding-left: 10px;
   height: 60px;

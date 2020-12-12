@@ -94,7 +94,8 @@
                 "id": ["spe-s003"],
                 "map": ["mapbox"],
                 "thumbnail": "img_nav_02_ghjs_jzgdfb-min.png",
-                "updateTime": "2020-11-09"
+                "updateTime": "2020-11-09",
+                "path":"built-height"
             },
             {
                 "level": 2,
@@ -105,6 +106,8 @@
                 "disabled": false,
                 "id": ["spe-s004"],
                 "map": ["mapbox"],
+                "path":"built-year",
+            
                 "thumbnail": "img_nav_02_ghjs_jzldfb-min.png",
                 "updateTime": "2020-11-09"
             },
@@ -117,6 +120,7 @@
                 "disabled": false,
                 "id": ["spe-s005"],
                 "map": ["mapbox"],
+                "path":"built-usage",
                 "thumbnail": "img_nav_02_ghjs_jzytfb-min.png",
                 "updateTime": "2020-11-09"
             },

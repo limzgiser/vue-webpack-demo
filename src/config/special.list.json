@@ -1,0 +1,371 @@
+{
+    "tmplate": [],
+    "default": [
+      {
+        "title": "建筑素模",
+        "type": "vt",
+        "url": "http://webres.cityfun.com.cn/sip_std_zt/3857/jzsm.json",
+        "id": "spe-001"
+      }
+    ],
+    "spelist": [
+      {
+        "title": "高精度地图 —— 标杆标牌",
+        "type": "model",
+        "models": [
+          {
+            "type": "gltf",
+            "name": "标杆标牌",
+            "url": "http://webres.cityfun.com.cn/sip_std_zt/models/bgbp.gltf",
+            "rotation": { "x": 90, "y": 180, "z": 0 },
+            "origin": [120.665275, 31.323433],
+             "id":"base-model-201-01"
+          }
+        ],
+        "id": "base-model-201"
+      },
+      {
+        "title": "城市三维模型  —— 管委会",
+        "type": "model",
+        "models": [
+          {
+            "type": "gltf",
+            "name": "管委会",
+            "url": "http://webres.cityfun.com.cn/sip_std_zt/models/yqgwh.gltf",
+            "rotation": { "x": 90, "y": 180, "z": 0 },
+            "origin": [120.719019, 31.326361],
+            "id":"model-001-01"
+          }
+        ],
+  
+        "id": "model-001"
+      },
+      {
+        "title": "城市三维模型  —— 东方之门",
+        "type": "model",
+        "models": [
+          {
+            "type": "gltf",
+            "name": "东方之门",
+            "url": "http://webres.cityfun.com.cn/sip_std_zt/models/eastdoor.gltf",
+            "rotation": { "x": 90, "y": 180, "z": 0 },
+            "origin": [120.674751, 31.318965],
+            "id":"model-002-01"
+          }
+        ],
+  
+        "id": "model-002"
+      },
+      {
+        "title": "城市三维模型  —— 188",
+        "type": "model",
+        "models": [
+          {
+            "type": "gltf",
+            "name": "188",
+            "url": "http://webres.cityfun.com.cn/sip_std_zt/models/global188.gltf",
+            "rotation": { "x": 90, "y": 180, "z": 0 },
+            "origin": [120.665762, 31.315842],
+            "scale": 1   ,  "id":"model-003-01"
+          }
+        ],
+  
+        "id": "model-003"
+      },
+      {
+        "title": "城市三维模型 规划方案对比 - 方案一729米",
+        "type": "model",
+        "models": [
+          {
+            "type": "gltf",
+            "name": "方案一632米",
+            "url": "http://webres.cityfun.com.cn/sip_std_zt/models/znzx1.gltf",
+            "rotation": { "x": 90, "y": 180, "z": 0 },
+            "origin": [120.672405, 31.317153],
+            "scale": 0.028 ,  "id":"model-801-01"
+          }
+        ],
+  
+        "id": "model-801"
+      },
+      {
+        "title": "城市三维模型 规划方案对比 - 方案一632米",
+        "type": "model",
+        "models": [
+          {
+            "type": "gltf",
+            "name": "方案二632米",
+            "url": "http://webres.cityfun.com.cn/sip_std_zt/models/znzx2.gltf",
+            "rotation": { "x": 90, "y": 180, "z": 0 },
+            "origin": [120.672405, 31.317153],
+            "scale": 0.028,  "id":"model-802-01"
+          }
+        ],
+  
+        "id": "model-802"
+      },
+      {
+        "title": "城市三维模型 规划方案对比 - 方案一499米",
+        "type": "model",
+        "models": [
+          {
+            "type": "gltf",
+            "name": "方案三499米",
+            "url": "http://webres.cityfun.com.cn/sip_std_zt/models/znzx3.gltf",
+            "rotation": { "x": 90, "y": 180, "z": 0 },
+            "origin": [120.672405, 31.317153],
+            "scale": 0.028,  "id":"model-803-01"
+          }
+        ],
+  
+        "id": "model-803"
+      },
+      {
+        "title": "历史古城保护——文保单位",
+        "type": "model",
+        "models": [
+          {
+            "type": "gltf",
+            "name": "01",
+            "url": "http://webres.cityfun.com.cn/sip_std_zt/models/lsjzw.gltf",
+            "rotation": { "x": 90, "y": 180, "z": 0 },
+            "origin": [120.714996, 31.15924],
+            "scale": 1,
+            "id":"model-804-01"
+          },
+          {
+            "type": "gltf",
+            "name": "02",
+            "url": "http://webres.cityfun.com.cn/sip_std_zt/models/wbdw.gltf",
+            "rotation": { "x": 90, "y": 180, "z": 0 },
+            "origin": [120.714996, 31.15924],
+            "scale": 1,
+            "id":"model-804-02"
+          },
+          {
+            "type": "gltf",
+            "name": "03",
+            "url": "http://webres.cityfun.com.cn/sip_std_zt/models/wkdw.gltf",
+            "rotation": { "x": 90, "y": 180, "z": 0 },
+            "origin": [120.714996, 31.15924],
+            "scale": 1,
+            "id":"model-804-03"
+          },
+          {
+            "type": "gltf",
+            "name": "04",
+            "url": "http://webres.cityfun.com.cn/sip_std_zt/models/fwbwk.gltf",
+            "rotation": { "x": 90, "y": 180, "z": 0 },
+            "origin": [120.714996, 31.15924],
+            "scale": 1,
+            "id":"model-804-04"
+          }
+        ],
+        "id": "model-804"
+      },
+      {
+        "title": "建筑素模",
+        "type": "vt",
+        "url": "http://webres.cityfun.com.cn/sip_std_zt/3857/jzsm.json",
+        "id": "spe-001"
+      },
+      {
+        "title": "园区管委会-剔除-素模",
+        "type": "vt",
+        "url": "http://webres.cityfun.com.cn/sip_std_zt/3857/yqgwh.json",
+        "id": "spe-s0020"
+      },
+      {
+        "title": "东方之门-剔除-素模",
+        "type": "vt",
+        "url": "http://webres.cityfun.com.cn/sip_std_zt/3857/eastdoor.json",
+        "id": "spe-s0021"
+      },
+      {
+        "title": "188-剔除-素模",
+        "type": "vt",
+        "url": "http://webres.cityfun.com.cn/sip_std_zt/3857/global188.json",
+        "id": "spe-s0022"
+      },
+  
+      {
+        "title": "建筑高度分布",
+        "type": "vt",
+        "url": "http://webres.cityfun.com.cn/sip_std_zt/3857/jzgdfb.json",
+        "id": "spe-s003"
+      },
+      {
+        "title": "建筑年代分布",
+        "type": "vt",
+        "url": "http://webres.cityfun.com.cn/sip_std_zt/3857/jzndfb.json",
+        "id": "spe-s004",
+        "legend": "http://webres.cityfun.com.cn/sip_std_zt/legend/jzndfb.png"
+      },
+      {
+        "title": "建筑类型分布",
+        "type": "vt",
+        "url": "http://webres.cityfun.com.cn/sip_std_zt/3857/jzlxfb.json",
+        "id": "spe-s005",
+        "legend": "http://webres.cityfun.com.cn/sip_std_zt/legend/jzlxfb.png"
+      },
+      {
+        "title": "小区人口精细化管理",
+        "type": "vt",
+        "url": "http://webres.cityfun.com.cn/sip_std_zt/3857/gefhydhfx.json",
+        "id": "spe-s006",
+        "legend": "http://webres.cityfun.com.cn/sip_std_zt/legend/gefhydhfx.png"
+      },
+      {
+        "title": "停车场管理",
+        "type": "vt",
+        "url": "http://webres.cityfun.com.cn/sip_std_zt/3857/tccgl.json",
+        "id": "spe-s007",
+  
+        "legend": "http://webres.cityfun.com.cn/sip_std_zt/legend/tccgl.png"
+      },
+      {
+        "title": "高精度地图",
+        "type": "vt",
+        "url": "http://webres.cityfun.com.cn/sip_std_zt/3857/gjddt.json",
+        "id": "spe-s008"
+      },
+      {
+        "title": "产业园招商管理",
+        "type": "vt",
+        "url": "http://webres.cityfun.com.cn/sip_std_zt/3857/cyyzsgl.json",
+        "id": "spe-s009",
+  
+        "legend": "http://webres.cityfun.com.cn/sip_std_zt/legend/cyyzsgl.png"
+      },
+      {
+        "title": "产业园招商管理-标准",
+        "type": "vt",
+        "url": "http://webres.cityfun.com.cn/sip_std_zt/3857/cyyzsgl_bz.json",
+        "id": "spe-s010"
+      },
+      {
+        "title": "产业园招商管理-拉升",
+        "type": "vt",
+        "url": "http://webres.cityfun.com.cn/sip_std_zt/3857/cyyzsgl_ls.json",
+        "id": "spe-s011"
+      },
+      {
+        "title": "产业园招商管理-室内",
+        "type": "vt",
+        "url": "http://webres.cityfun.com.cn/sip_std_zt/3857/cyyzsgl_sn.json",
+        "id": "spe-s012"
+      },
+      {
+        "title": "经济发展-地块分布",
+        "type": "vt",
+        "url": "http://webres.cityfun.com.cn/sip_std_zt/3857/dkfb.json",
+        "id": "spe-s203"
+      },
+      {
+        "title": "经济发展-密度分布",
+        "type": "vt",
+        "url": "http://webres.cityfun.com.cn/sip_std_zt/3857/mdfb.json",
+        "id": "spe-s204"
+      },
+      {
+        "title": "城市精细化管理——路段流量分析",
+        "type": "vt",
+        "url": "http://webres.cityfun.com.cn/sip_std_zt/3857/ldllfx.json",
+        "id": "spe-s301",
+        "legend": "http://webres.cityfun.com.cn/sip_std_zt/legend/ldllfx.png"
+      },
+      {
+        "title": "物联感知 ——芙艾医院",
+        "type": "vt",
+        "url": "http://webres.cityfun.com.cn/sip_std_zt/3857/shfa.json",
+        "ext": {
+          "url": "http://test.cityfun.com.cn/indoorloc/"
+        },
+        "id": "spe-s302"
+      },
+      {
+        "title": "物联感知 —— 电梯状态监控",
+        "type": "vt",
+        "url": "http://webres.cityfun.com.cn/sip_std_zt/3857/dtztjk.json",
+        "ext": {},
+        "id": "spe-401",
+        "legend": "http://webres.cityfun.com.cn/sip_std_zt/legend/dtztjk.png"
+      },
+      {
+        "title": "公交轨迹 - 默认视口",
+        "type": "vt",
+        "url": "./assets/config/mapbox.style.config/special.list.config/styles/bustrip.json",
+        "ext": {},
+        "id": "spe-501"
+      },
+      {
+        "title": "违停热图",
+        "type": "vt",
+        "url": "./assets/config/mapbox.style.config/special.list.config/styles/illPark.json",
+        "ext": {},
+        "id": "spe-502",
+        "legend": "http://webres.cityfun.com.cn/sip_std_zt/legend/wztcrlt.png"
+      },
+      {
+        "title": "三维地形",
+        "type": "vt",
+        "url": "./assets/config/mapbox.style.config/special.list.config/styles/theed.terrain.json",
+        "ext": {
+          "elevationData": "http://192.168.2.179/mtrgb/xishan/{z}/{x}/{y}.png",
+          "texture": "http://map.cityfun.com.cn/arcgis/rest/services/SZ/XS_IMAGE_2017/MapServer/tile/{z}/{y}/{x}"
+        },
+        "id": "spe-601"
+      },
+      {
+        "title": "独居老人",
+        "type": "vt",
+        "url": "http://webres.cityfun.com.cn/sip_std_zt/3857/djlr.json",
+        "ext": {},
+        "id": "spe-701"
+      },
+      {
+        "title": "重点人员",
+        "type": "vt",
+        "url": "http://webres.cityfun.com.cn/sip_std_zt/3857/zdry.json",
+        "ext": {},
+        "id": "spe-702"
+      },
+      {
+        "title": "规划建设-规划方案对比-白膜",
+        "type": "vt",
+        "url": "http://webres.cityfun.com.cn/sip_std_zt/3857/ghfadb.json",
+        "ext": {},
+        "id": "spe-801"
+      },
+      {
+        "title": "历史古城保护 —— 建筑年代",
+        "type": "vt",
+        "url": "http://webres.cityfun.com.cn/sip_std_zt/3857/jznd.json",
+        "ext": {},
+        "id": "spe-802"
+      },
+      {
+        "title": "晕渲地形",
+        "type": "vt",
+        "url": "http://webres.cityfun.com.cn/sip_std_zt/3857/yxdx.json",
+        "ext": {},
+        "id": "spe-803"
+      },
+      {
+        "title": "三维等高面",
+        "type": "vt",
+        "url": "http://webres.cityfun.com.cn/sip_std_zt/3857/swdgm.json",
+        "ext": {},
+        "id": "spe-804"
+      },
+      {
+        "title": "文保单位",
+        "type": "vt",
+        "url": "http://webres.cityfun.com.cn/sip_std_zt/3857/wbdw.json",
+        "ext": {},
+        "id": "spe-805",
+        "legend":"http://webres.cityfun.com.cn/sip_std_zt/legend/wbdw.png"
+      }
+    ]
+  }
+  
