@@ -4,12 +4,14 @@
 
 <script>
 import { mapState } from "vuex";
+ 
 import { getSpecialItemsByPath } from "@/utils/menuUtil";
 export default {
   data() {
     return {};
   },
   mounted() {
+    
     let path = this.$route.path;
     let items = getSpecialItemsByPath(
       path,

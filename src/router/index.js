@@ -28,8 +28,8 @@ const router = new VueRouter({
           component: () => import("../views/BuiltUsage.vue"),
         },
         {
-          path: "built-age",
-          component: () => import("../views/BuiltAge.vue"),
+          path: "built-height",
+          component: () => import("../views/BuiltHeight.vue"),
         },
       ],
     },
