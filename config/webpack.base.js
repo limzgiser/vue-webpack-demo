@@ -120,9 +120,11 @@ module.exports = {
       "@": path.resolve("src"),
     },
   },
-//   optimization: {
-//     splitChunks: {
-//       name: "vendor",
-//     },
-//   },
+  optimization: {
+    // 配置代码分割
+    splitChunks: {
+      // 要分割哪些模块：all（推荐）, async(默认，只分隔异步代码), and initial
+      chunks: 'all'
+    }
+  }
 };
